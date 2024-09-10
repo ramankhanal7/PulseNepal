@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+}
+
+
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+
+.success-content {
+    text-align: center;
+    background-color: #1b1b1b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.success-icon {
+    width: 80px;
+    height: 80px;
+    fill: none;
+    stroke: green;
+
+    stroke-width: 5px;
+    margin-bottom: 20px;
+}
+
+
+.success-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.success-description {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.go-back-button {
+    background-color: #004684;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.go-back-button:hover {
+    background-color: #1d4ed8;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="PULSE Nepal" class="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <div class="nav-menu-container">
+                <button class="menu-close" aria-label="Close Menu">&times;</button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfRvRYkMfDk7u7GrABvgoE2JAsb4_DEkG6lVScy1eRjeUV8dA/viewform?usp=sf_link"
+                            class="register-button">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <h1 class="contact-title">Contact Us</h1>
+            <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="13532563-ed63-4051-9c3c-79ba543ab70d">
+                <input type="hidden" name="subject" value="Contact Form Submission">
+                <input type="hidden" name="from_name" value="Website Contact Form">
+                <input type="hidden" name="redirect" value="file:///Users/ramankhanal/Documents/PulseNepal/index.html">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <div class="h-captcha" data-captcha="true"></div>
+
+                <div class="input-group">
+                    <div class="input-container">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required
+                            placeholder="Enter your first name">
+                    </div>
+                    <div class="input-container">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required placeholder="Enter your last name">
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                </div>
+
+                <div class="input-container">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column footer-left">
+                <h2>Pulse Nepal</h2>
+                <p>Progressing</p>
+                <p>Underdeveloped areas</p>
+                <p>Leveraging</p>
+                <p>Students and</p>
+                <p>Emerging Technologies</p>
+            </div>
+            <div class="footer-column footer-center">
+                <a href="https://www.instagram.com/" target="_blank" class="social-link">
+                    <img src="images/instagramlogo.png" alt="Instagram" class="social-icon"> Follow us on Instagram
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                    <img src="images/facebooklogo.png" alt="Facebook" class="social-icon"> Follow us on Facebook
+                </a>
+                <p>Email: info.pulsenepal@gmail.com</p>
+            </div>
+            <div class="footer-column footer-right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/form-validation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
