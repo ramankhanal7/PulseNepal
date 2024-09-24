@@ -318,6 +318,15 @@ body {
     margin-bottom: 20px;
 }
 
+.sponsor-logos p {
+    color: #b3b3b3;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
 .logos-carousel {
     display: flex;
     gap: 85px;
