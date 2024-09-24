@@ -428,6 +428,14 @@ ul.topics-list {
     padding: 0;
 }
 
+.objectives-impact li {
+    margin-top: 10px;
+}
+
+.objectives-impact p {
+    margin-bottom: 20px;
+}
+
 
 
 .event-timeline {
@@ -640,6 +648,52 @@ ul.topics-list {
         font-size: 0.8em;
     }
 
+}
+
+.apply-section {
+    background-color: #1b1b1b;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.apply-container {
+    margin: 0 auto;
+}
+
+.apply-container h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.apply-text {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.apply-text p {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #b3b3b3;
+}
+
+.apply-button {
+    display: inline-block;
+    background-color: #004684;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.apply-button:hover {
+    background-color: #003768;
 }
 
 .faq-section {
